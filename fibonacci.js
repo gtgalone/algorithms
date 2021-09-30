@@ -1,5 +1,5 @@
 const fibonacci = (value) => {
-  const arr = [0, 1];
+  const arr = [1, 1];
 
   const _fibonacci = (n) => {
     if (arr[n] !== undefined) {
