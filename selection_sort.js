@@ -5,7 +5,6 @@ const swap = (list, index1, index2) => {
 }
 
 const selectionSort = (list) => {
-
   for (let i = 0; i < list.length; i++) {
     let minIndex = i;
     for (let j = (i + 1); j < list.length; j++) {
